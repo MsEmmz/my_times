@@ -1,4 +1,4 @@
-/*Header Items
+/*Header Items*/
 
 header {
  display: flex;
@@ -11,21 +11,25 @@ header {
  width: 100%;
  height: 80px;
  align-items: center;
+ z-index: 1;
  }
 
 div.logo {
    display: flex;
    align-items: center;
    padding-left: 30px;
-   flex-grow: 2
+   flex-grow: 1
  }
-
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
 .logo span {
   color: MediumAquamarine;
-  padding-left: 15px;
 }
 
-Navigation section
+/*Navigation section*/
 nav {
   padding-right: 40px;
 }
@@ -36,31 +40,30 @@ nav span {
 span a{
   color: black;
 }
-*/
+
 /*Main Content Container*/
 .content {
   display: flex;
   width: 1230px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 
-}
-.column {
-
-  flex-direction: column;
-  display: flex;
 }
 div {
   border: 1px solid black;
 }
 /*Common Elements*/
-h2 {
-
-}
-h3 {
-
+.column {
+  flex-direction: column;
+  display: flex;
+  margin-right: 30px;
 }
 
 .articles {
 
+}
+.article {
+  
 }
 .story-column {
 
@@ -71,7 +74,13 @@ h3 {
 .story-content {
 
 }
+h2 {
 
+}
+
+h3 {
+
+}
 
 
 
