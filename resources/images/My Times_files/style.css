@@ -1,4 +1,4 @@
-/*Header Items
+/*Header Items*
 
 header {
  display: flex;
@@ -25,9 +25,11 @@ div.logo {
   padding-left: 15px;
 }
 
-Navigation section
+/*Navigation section*
 nav {
   padding-right: 40px;
+
+
 }
 nav span {
   display: inline-block;
@@ -35,18 +37,19 @@ nav span {
 }
 span a{
   color: black;
-}
-*/
+
+}*1
+
 /*Main Content Container*/
 .content {
   display: flex;
   width: 1230px;
-
+  border: 1px solid black;
 }
 .column {
-
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
+  border: 1px solid black;
 }
 div {
   border: 1px solid black;
@@ -78,10 +81,10 @@ h3 {
 /*First news column*/
 .column large {
   width:630px;
-
+  
 }
 .main-story {
-
+  border: 1px solid black;
 }
 .
 
